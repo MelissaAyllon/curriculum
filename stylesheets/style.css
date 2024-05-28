@@ -1,49 +1,30 @@
-/* Importación de Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&family=Merriweather:wght@400;700&display=swap');
 
-/* Asignación de familias tipográficas */
-* {
-    font-family: 'Roboto', sans-serif; /* Texto general */
-  }
-  
-  h2 {
-    font-family: 'Montserrat', sans-serif; /* Títulos de secciones */
-  }
-  
-  h1 {
-    font-family: 'Merriweather', serif; /* Título principal */
-  }
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Montserrat:wght@700&family=Noto+Sans:ital@0;1&display=swap');
+*{
+  font-family: Noto Sans, sans-serif;
+}
 
- /* Asignación de colores */
-#seccion1 {
-    background-color: #f0f0f0; /* Color neutral 1 (gris claro) */
-  }
-  #seccion2 {
-    background-color: #d3d3d3; /* Color neutral 2 (gris oscuro) */
-  }
-  #seccion3 {
-    background-color: #4caf50; /* Color que resalta (verde) */
-  }
-  
-  /* Selector anidado para color de texto */
-  #seccion1 p {
-    color: #333; /* Color neutral 1 para el texto */
-  }
-  #seccion2 p {
-    color: #555; /* Color neutral 2 para el texto */
-  }
-  #seccion3 p {
-    color: #fff; /* Texto blanco para resaltar en fondo verde */
-  }
-  .section-container {
-    margin: 2px 1px 1.5px;
-    margin-top: 0.8rem;
-    border: 0.2pt dashed #827d7d;
-    padding: 2% 1.2%;  
-    box-shadow: 
-      rgba(0, 0, 0, 0.25) 0px 54px 55px, 
-      rgba(0, 0, 0, 0.12) 0px -12px 30px, 
-      rgba(0, 0, 0, 0.12) 0px 4px 6px,
-      rgba(0, 0, 0, 0.17) 0px 12px 13px, 
-      rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  }
+section h2{
+  font-family: Times New Roman, serif;
+}
+
+h1#titulo-importante{
+  font-family: Hind Madurai, sans-serif;
+}
+
+section {
+  background-color: #fafbfb;
+  color: #202223;
+  margin: 2px 1px 1.5px;
+  margin-top: 0.8rem;
+  border: 0.2pt dashed #827d7d;
+  padding: 2% 1.2%;   
+  box-shadow: 
+   rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+   rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+   rgba(0, 0, 0, 0.12) 0px 4px 6px,
+   rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+   rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+}
+
+/* Aplicar estilos al modelo caja */
